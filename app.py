@@ -4,12 +4,12 @@ app = Flask(__name__)
 
 SERVICES = [{
   'id': 1,
-  'title': 'Ayurveda Consultation - IN-PERSON',
+  'title': 'Ayurveda Consultation - INPERSON',
   'location': 'In-person',
   'price': '$120/hour'
 }, {
   'id': 2,
-  'title': 'FOLLOW-UP:Ayurveda Consultation IN-PERSON',
+  'title': 'FOLLOW-UP:Ayurveda Consultation INPERSON',
   'location': 'In-person',
   'price': '3 months: $75, 3-6 months: $90'
 }, {

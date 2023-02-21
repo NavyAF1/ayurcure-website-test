@@ -11,13 +11,14 @@
         height: 360px;
         width: 100%;
         object-fit: cover;
+        margin-bottom: 16px;
       }
     </style>
   </head>
   <body>
+    {% include 'nav.html' %}
+     <img class="img-fluid" id="banner" src="https://ayurcure-website-test.navyaf1.repl.co/static/banner.jpg">
     <div class="container">
-      <h1 class="text-center mt-2 mb-4">AyurCure Wellness</h1>
-      <img class="img-fluid" id="banner" src="https://ayurcure-website-test.navyaf1.repl.co/static/banner.jpg">
       <h2 class="text-center mt-2 mb-4">About Ayurveda</h2>
       <p class="lead">Ayurveda, which translated means "The Science of Life" has been practised in India since the 10th Century B.C, according to a 2001 World Health Organization report. It is the oldest recorded healing science in existence focuses on longevity, contented and well-balanced life. The prime philosophy of Ayurveda is to eliminate the root cause of an illness. Ayurveda recognises that the importance of individuality and uses a holistic approach to assessing the health condition of the individual, harmonising the physical and mental balance in line with the individual’s constitution. Two people with similar conditions may not necessarily receive the same treatment plan.<br><br>Ayurveda does not stand simply for the cure of certain diseases in individuals. It aims at keeping both the individual and the society healthy and happy by Prevention/alleviation of disease.
   The ancient art of ayurvedic pulse diagnosis help ascertains your individualised health management. Healing program includes incorporates diet, herbal remedies, Ayurveda yoga philosophy and the attunement of body, mind and consciousness to cultivate such a state of balance and harmony, to your individual qualities and elements in the whole psycho-biology.</p>
@@ -28,9 +29,9 @@
         {% endfor %}
       </div>
       <div class="text-center">
-      <button class="btn btn-primary btn-lg">Contact Us</button>
-        <p class="mt-4">Copyright 2023, AyurCure</p>
+      <a href ="mailto:ayurcure@hotmail.com?subject=Question%20about%20AyurCure%20Wellness&body=Name%3A%0D%0A%0D%0AYour%20Question%3A"class="btn btn-primary btn-lg">Contact Us</a>
       </div>
         </div>
+    {% include 'footer.html' %}
   </body>
 </html>
